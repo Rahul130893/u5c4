@@ -1,4 +1,20 @@
+import { useState, useEffect } from "react";
+import {axios} from "axios"
+
+
 export const Login = () => {
+
+  const [user, setUser]=useState([])
+
+//   useEffect(()=>{
+//       axios.get("http://localhost:8080/users").then((data)=>{
+//           setUser(data)
+//       })
+
+//   }, [])
+
+  
+
     return (
       <div>
         <input
